@@ -1,0 +1,24 @@
+{
+  "name": "s3-uploader",
+  "version": "1.0.0",
+  "description": "Basic file upload using AWS S3 Sign pipeline",
+  "main": "ImageUpload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayinserdar/S3-Uploader.git"
+  },
+  "keywords": [
+    "S3",
+    "AWS",
+    "React"
+  ],
+  "author": "Serdar SAYIN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sayinserdar/S3-Uploader/issues"
+  },
+  "homepage": "https://github.com/sayinserdar/S3-Uploader#readme"
+}
