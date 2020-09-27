@@ -9,7 +9,7 @@ const dataURIToBlob = (dataURI, fileType) => {
   return new Blob([new Uint8Array(array)], { type: fileType });
 };
 
-const ImageUpload = ({ S3Path, image, altText, label, onFileUploaded }) => {
+const index = ({ S3Path, image, altText, label, onFileUploaded }) => {
   let imageBinary = null;
   let imageType = null;
   const [loading, setLoading] = useState(false);
@@ -144,4 +144,4 @@ const ImageUpload = ({ S3Path, image, altText, label, onFileUploaded }) => {
   );
 };
 
-export default ImageUpload;
+export default index;
